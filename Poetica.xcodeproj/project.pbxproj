@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC285C802999027A00C20A81 /* PoemPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC285C7F2999027A00C20A81 /* PoemPreview.swift */; };
+		BCB29AC22999CC850080B023 /* CollectionPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB29AC12999CC850080B023 /* CollectionPreview.swift */; };
+		C50600A79C62466DFFA0275F /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506053E724C5D3FE7EFCCB0 /* LibraryView.swift */; };
+		C506023806319D6EB09ABAD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5060F21264DEF3183D68072 /* ContentView.swift */; };
+		C506030D8F8403D117F838FA /* PoeticaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506018E58DD6AE1FDDD724B /* PoeticaUITests.swift */; };
+		C5060663E3D4D5328D5E2E3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506046C09DC951BF7975BD2 /* Persistence.swift */; };
+		C506072153BDB9D56863A66F /* PoeticaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5060CF4DC90C9CFCA949AF0 /* PoeticaApp.swift */; };
+		C506087FB770153D1427E5A7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5060147908B3DD5F58B045D /* SearchView.swift */; };
+		C50608F62E4E8E8AB4528125 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5060D80A97E7DABDC122F36 /* HomeView.swift */; };
+		C50609CFF1CE2ECBEA5E6D97 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50601948CD843637CD0A767 /* Card.swift */; };
+		C5060BA4EDA791503C27EEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5060477840F8A96F03F91A6 /* Assets.xcassets */; };
+		C5060D966D4F65A65D9C36CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5060D1686DF817898640708 /* Preview Assets.xcassets */; };
+		C5060DA9CA43CBD446D9A53A /* PoeticaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5060EDACCF1D0098138E837 /* PoeticaTests.swift */; };
+		C5060E277EAF3A4E3DE956E9 /* PoeticaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5060E5EDAA0591646B8EEAA /* PoeticaUITestsLaunchTests.swift */; };
+		C5060F7B35F24508DFB855D9 /* Poetica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C506026B362F78EF742B913F /* Poetica.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C506034FE872F3CE0CC7F001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C506032EA3DB480D954D93F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5060679AA6BC2567432C9E1;
+			remoteInfo = Poetica;
+		};
+		C50607E1B6C4E3580DCD95AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C506032EA3DB480D954D93F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5060679AA6BC2567432C9E1;
+			remoteInfo = Poetica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC285C7F2999027A00C20A81 /* PoemPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemPreview.swift; sourceTree = "<group>"; };
+		BCB29AC12999CC850080B023 /* CollectionPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPreview.swift; sourceTree = "<group>"; };
+		C5060147908B3DD5F58B045D /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C506018E58DD6AE1FDDD724B /* PoeticaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoeticaUITests.swift; sourceTree = "<group>"; };
+		C50601948CD843637CD0A767 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C50602C955AA92DBDECF8282 /* PoeticaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoeticaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C506046C09DC951BF7975BD2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C5060477840F8A96F03F91A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C506053E724C5D3FE7EFCCB0 /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		C50609647F9FA67E3DDEDE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C5060CF4DC90C9CFCA949AF0 /* PoeticaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoeticaApp.swift; sourceTree = "<group>"; };
+		C5060CF872C6A06D6AD9B689 /* Poetica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poetica.xcdatamodel; sourceTree = "<group>"; };
+		C5060D1686DF817898640708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5060D2D877C126158F19598 /* Poetica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poetica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5060D612D5221E96F2190E4 /* PoeticaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoeticaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5060D80A97E7DABDC122F36 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C5060E5EDAA0591646B8EEAA /* PoeticaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoeticaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5060EDACCF1D0098138E837 /* PoeticaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoeticaTests.swift; sourceTree = "<group>"; };
+		C5060F21264DEF3183D68072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50601CE26CF7706D2438386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506053333CC3F626535FA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5060A8A49584521BEDD64D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50601D340F75DDEBEF8DB19 = {
+			isa = PBXGroup;
+			children = (
+				C5060403AF5B83572D559197 /* Products */,
+				C506077E4F18A1482F24EF41 /* Poetica */,
+				C50607113DF17CC36A533A58 /* PoeticaTests */,
+				C5060ADF129492E2EC10A574 /* PoeticaUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		C5060403AF5B83572D559197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5060D2D877C126158F19598 /* Poetica.app */,
+				C50602C955AA92DBDECF8282 /* PoeticaTests.xctest */,
+				C5060D612D5221E96F2190E4 /* PoeticaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50607113DF17CC36A533A58 /* PoeticaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5060EDACCF1D0098138E837 /* PoeticaTests.swift */,
+			);
+			path = PoeticaTests;
+			sourceTree = "<group>";
+		};
+		C506077E4F18A1482F24EF41 /* Poetica */ = {
+			isa = PBXGroup;
+			children = (
+				C5060477840F8A96F03F91A6 /* Assets.xcassets */,
+				C5060882DA726E4F0ECE5C02 /* Preview Content */,
+				C5060CF4DC90C9CFCA949AF0 /* PoeticaApp.swift */,
+				C5060F21264DEF3183D68072 /* ContentView.swift */,
+				C506046C09DC951BF7975BD2 /* Persistence.swift */,
+				C506026B362F78EF742B913F /* Poetica.xcdatamodeld */,
+				C50609647F9FA67E3DDEDE72 /* Info.plist */,
+				C5060DEED880DF9D08D19CF3 /* Views */,
+			);
+			path = Poetica;
+			sourceTree = "<group>";
+		};
+		C5060882DA726E4F0ECE5C02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5060D1686DF817898640708 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5060A554F7875F7F5F8A3E2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C50601948CD843637CD0A767 /* Card.swift */,
+				BC285C7F2999027A00C20A81 /* PoemPreview.swift */,
+				BCB29AC12999CC850080B023 /* CollectionPreview.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C5060ADF129492E2EC10A574 /* PoeticaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C506018E58DD6AE1FDDD724B /* PoeticaUITests.swift */,
+				C5060E5EDAA0591646B8EEAA /* PoeticaUITestsLaunchTests.swift */,
+			);
+			path = PoeticaUITests;
+			sourceTree = "<group>";
+		};
+		C5060DEED880DF9D08D19CF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5060D80A97E7DABDC122F36 /* HomeView.swift */,
+				C506053E724C5D3FE7EFCCB0 /* LibraryView.swift */,
+				C5060147908B3DD5F58B045D /* SearchView.swift */,
+				C5060A554F7875F7F5F8A3E2 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5060065F3CC22101B9E6D5F /* PoeticaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50607634FB21009140B0941 /* Build configuration list for PBXNativeTarget "PoeticaTests" */;
+			buildPhases = (
+				C5060B7CB7264C50302C2761 /* Sources */,
+				C5060A8A49584521BEDD64D8 /* Frameworks */,
+				C50606B0ABC1FFB35648BD1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5060F5A35A3064DE6EFDEB5 /* PBXTargetDependency */,
+			);
+			name = PoeticaTests;
+			productName = PoeticaTests;
+			productReference = C50602C955AA92DBDECF8282 /* PoeticaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5060679AA6BC2567432C9E1 /* Poetica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50601409BD915864A3F3299 /* Build configuration list for PBXNativeTarget "Poetica" */;
+			buildPhases = (
+				C506027908FADC6C1660C7B4 /* Sources */,
+				C506053333CC3F626535FA8D /* Frameworks */,
+				C5060504EBC4659A810BAE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poetica;
+			productName = Poetica;
+			productReference = C5060D2D877C126158F19598 /* Poetica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5060DAC86A6C0680A8052FA /* PoeticaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C506004CC840E1399F38BAF5 /* Build configuration list for PBXNativeTarget "PoeticaUITests" */;
+			buildPhases = (
+				C5060DA5E5FC47073EB11D63 /* Sources */,
+				C50601CE26CF7706D2438386 /* Frameworks */,
+				C5060DCC5BD7770ED562B626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5060101676C8DE1E8E62501 /* PBXTargetDependency */,
+			);
+			name = PoeticaUITests;
+			productName = PoeticaUITests;
+			productReference = C5060D612D5221E96F2190E4 /* PoeticaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C506032EA3DB480D954D93F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C506013FED629D071EA9E46F /* Build configuration list for PBXProject "Poetica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50601D340F75DDEBEF8DB19;
+			productRefGroup = C5060403AF5B83572D559197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5060679AA6BC2567432C9E1 /* Poetica */,
+				C5060065F3CC22101B9E6D5F /* PoeticaTests */,
+				C5060DAC86A6C0680A8052FA /* PoeticaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5060504EBC4659A810BAE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5060BA4EDA791503C27EEC9 /* Assets.xcassets in Resources */,
+				C5060D966D4F65A65D9C36CC /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50606B0ABC1FFB35648BD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5060DCC5BD7770ED562B626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C506027908FADC6C1660C7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C506072153BDB9D56863A66F /* PoeticaApp.swift in Sources */,
+				C506023806319D6EB09ABAD3 /* ContentView.swift in Sources */,
+				C5060663E3D4D5328D5E2E3F /* Persistence.swift in Sources */,
+				BC285C802999027A00C20A81 /* PoemPreview.swift in Sources */,
+				BCB29AC22999CC850080B023 /* CollectionPreview.swift in Sources */,
+				C5060F7B35F24508DFB855D9 /* Poetica.xcdatamodeld in Sources */,
+				C50608F62E4E8E8AB4528125 /* HomeView.swift in Sources */,
+				C50600A79C62466DFFA0275F /* LibraryView.swift in Sources */,
+				C506087FB770153D1427E5A7 /* SearchView.swift in Sources */,
+				C50609CFF1CE2ECBEA5E6D97 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5060B7CB7264C50302C2761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5060DA9CA43CBD446D9A53A /* PoeticaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5060DA5E5FC47073EB11D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C506030D8F8403D117F838FA /* PoeticaUITests.swift in Sources */,
+				C5060E277EAF3A4E3DE956E9 /* PoeticaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5060101676C8DE1E8E62501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5060679AA6BC2567432C9E1 /* Poetica */;
+			targetProxy = C50607E1B6C4E3580DCD95AD /* PBXContainerItemProxy */;
+		};
+		C5060F5A35A3064DE6EFDEB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5060679AA6BC2567432C9E1 /* Poetica */;
+			targetProxy = C506034FE872F3CE0CC7F001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C50600439F2D75B901C733F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poetica/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Poetica;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phakel.Poetica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C50600E75BF63CBDB28663E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phakel.PoeticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Poetica;
+			};
+			name = Debug;
+		};
+		C506061CED203AA1E0FAFE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phakel.PoeticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Poetica;
+			};
+			name = Release;
+		};
+		C506074165A18BF0BB16E9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poetica.app/Poetica";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phakel.PoeticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C5060AC41227D0231A3A47F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poetica/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Poetica;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phakel.Poetica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5060AEF28B6C07052B8DC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5060D0320AB21C9A34020EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5060ED5A416959B8D764669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poetica.app/Poetica";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phakel.PoeticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C506004CC840E1399F38BAF5 /* Build configuration list for PBXNativeTarget "PoeticaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50600E75BF63CBDB28663E1 /* Debug */,
+				C506061CED203AA1E0FAFE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C506013FED629D071EA9E46F /* Build configuration list for PBXProject "Poetica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5060AEF28B6C07052B8DC63 /* Debug */,
+				C5060D0320AB21C9A34020EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50601409BD915864A3F3299 /* Build configuration list for PBXNativeTarget "Poetica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5060AC41227D0231A3A47F7 /* Debug */,
+				C50600439F2D75B901C733F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50607634FB21009140B0941 /* Build configuration list for PBXNativeTarget "PoeticaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C506074165A18BF0BB16E9CA /* Debug */,
+				C5060ED5A416959B8D764669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C506026B362F78EF742B913F /* Poetica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5060CF872C6A06D6AD9B689 /* Poetica.xcdatamodel */,
+			);
+			currentVersion = C5060CF872C6A06D6AD9B689 /* Poetica.xcdatamodel */;
+			path = Poetica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C506032EA3DB480D954D93F7 /* Project object */;
+}
